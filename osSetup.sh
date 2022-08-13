@@ -18,9 +18,9 @@ case "$(uname -s)" in
     
     Linux)
     sudo apt update && sudo apt upgrade
+    apt install -y build-essential cgdb gdb git python3 python3-pip valgrind openjdk-17-jdk
     apt install -y zsh
     chsh -s /bin/zsh
-    curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
     ;;
 
 
