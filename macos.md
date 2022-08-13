@@ -9,5 +9,4 @@
 * Spotlight
   * Disable Spotlight except for Applications and System Preferences
 * Finder
-  * Preference: Sidebar
   * View -> Show Preview (e.g. image files)
