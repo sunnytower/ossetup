@@ -42,7 +42,7 @@ case "$(uname -s)" in
     sudo apt update && sudo apt upgrade
     apt install -y build-essential cgdb gdb git python3 python3-pip valgrind openjdk-17-jdk
     apt install -y zsh
-    chsh -s /bin/zsh
+    chsh -s $(which zsh)
     ;;
 
 
