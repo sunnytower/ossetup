@@ -15,9 +15,6 @@ case "$(uname -s)" in
     defaults write NSGlobalDomain InitialKeyRepeat -int 10 
     #允许任意来源
     sudo spctl --master-disable
-    # Show the ~/Library folder
-    chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library 
-
     # do not open previous previewed files (e.g. PDFs) when opening a new one
     defaults write com.apple.Preview ApplePersistenceIgnoreState YES
     # Finder: show all filename extensions
