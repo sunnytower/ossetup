@@ -10,7 +10,10 @@ brew upgrade
 
 # Save Homebrew’s installed location.
 #BREW_PREFIX=$(brew --prefix)
-
+brew tap homebrew/cask-versions
+brew tap homebrew/cask
+brew tap homebrew/core
+brew tap homebrew/cask-fonts
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 #brew install coreutils
@@ -26,20 +29,21 @@ brew upgrade
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
-
+brew install curl
 # Install GnuPG to enable PGP-signing commits.
 #brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
+brew install git
+brew install vim
 brew install grep
 brew install openssh
 brew install screen
+brew install tmux
 #brew install php
 #brew install gmp
 
 # Install font.
-brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 #brew tap bramstein/webfonttools
 #brew install sfnt2woff
@@ -89,6 +93,24 @@ brew install --cask font-hack-nerd-font
 #brew install tree
 #brew install vbindiff
 #brew install zopfli
+
+#my gui
+brew install surge
+brew install appcleaner
+brew install 1password
+brew install intellij-idea-ce
+brew install alfred
+brew install flux
+brew install google-chrome
+brew install onyx
+brew install shottr
+brew install todoist
+brew install the-unarchiver
+brew install spotify
+#extra(maybe not install )
+brew install eudic
+brew install iina
+brew install onedrive
 
 # Remove outdated versions from the cellar.
 brew cleanup
