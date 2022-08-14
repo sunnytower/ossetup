@@ -12,7 +12,7 @@ case "$(uname -s)" in
     defaults write -g ApplePressAndHoldEnabled -bool false
     # Set a blazingly fast keyboard repeat rate
     defaults write NSGlobalDomain KeyRepeat -int 1
-    defaults write NSGlobalDomain InitialKeyRepeat -int 10 
+    defaults write NSGlobalDomain InitialKeyRepeat -int 12
     #允许任意来源
     sudo spctl --master-disable
     # do not open previous previewed files (e.g. PDFs) when opening a new one
