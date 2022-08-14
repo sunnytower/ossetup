@@ -17,8 +17,10 @@
 * copy other preference from my current machine.
 
 ## install [homebrew](https://brew.sh/)
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
   run the [brew.sh](./brew.sh)
-
 
 # setup zsh
 ## install [zimfw](https://github.com/zimfw/zimfw)
@@ -31,5 +33,6 @@
       wget -nv -O - https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
 
 ## install [chezmoi](https://www.chezmoi.io/install/)
+
 
 # sync my [dotfiles](https://github.com/sunnytower/dotfiles)
