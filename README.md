@@ -3,16 +3,16 @@
 
 # [setup](./setup.sh)
 
-# macos setup
+# Macos Setup
 ## System Preference 
 * keyboard
-  * Text
+  * text
     * disable "Capitalise word automatically"
     * disable "Add full stop with double-space"
     * disable "Use smart quotes and dashes"
     * use " for double quotes
     * use ' for single quotes
-* Spotlight
+* spotlight
   * Disable Spotlight except for Applications and System Preferences
 * copy other preference from my current machine.
 
@@ -22,7 +22,7 @@
 ```
   run the [brew.sh](./brew.sh)
 
-# setup zsh
+# Setup Zsh
 ## install [zimfw](https://github.com/zimfw/zimfw)
 * With `curl`:
 
@@ -32,7 +32,7 @@
 
       wget -nv -O - https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
 
-## install [chezmoi](https://www.chezmoi.io/install/)
+## install [Chezmoi](https://www.chezmoi.io/install/)
 
 
-# sync my [dotfiles](https://github.com/sunnytower/dotfiles)
+# Sync My [Dotfiles](https://github.com/sunnytower/dotfiles)
