@@ -38,7 +38,9 @@ brew install screen
 #brew install php
 #brew install gmp
 
-# Install font tools.
+# Install font.
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
 #brew tap bramstein/webfonttools
 #brew install sfnt2woff
 #brew install sfnt2woff-zopfli
