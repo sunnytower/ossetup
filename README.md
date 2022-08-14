@@ -32,7 +32,7 @@
 
       wget -nv -O - https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
 
-## install [Chezmoi](https://www.chezmoi.io/install/)
+## Install [Chezmoi](https://www.chezmoi.io/install/)
 
 
 # Sync My [Dotfiles](https://github.com/sunnytower/dotfiles)
