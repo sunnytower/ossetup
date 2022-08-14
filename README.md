@@ -14,8 +14,6 @@
     * use ' for single quotes
 * Spotlight
   * Disable Spotlight except for Applications and System Preferences
-* Finder
-  * View -> Show Preview (e.g. image files)
 * copy other preference from my current machine.
 
 ## install [homebrew](https://brew.sh/)
