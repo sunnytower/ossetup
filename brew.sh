@@ -111,6 +111,6 @@ brew install spotify
 brew install eudic
 brew install iina
 brew install onedrive
-
+brew install telegram
 # Remove outdated versions from the cellar.
 brew cleanup
