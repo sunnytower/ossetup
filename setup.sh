@@ -40,9 +40,9 @@ case "$(uname -s)" in
     
     Linux)
     sudo apt update && sudo apt upgrade
-    apt install -y build-essential cgdb gdb git python3 python3-pip valgrind openjdk-17-jdk
-    apt install -y zsh
-    chsh -s $(which zsh)
+    sudo apt install -y build-essential cgdb gdb git python3 python3-pip valgrind openjdk-17-jdk
+    sudo apt install -y zsh
+    sudo chsh -s $(which zsh)
     ;;
 
 
