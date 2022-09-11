@@ -34,11 +34,9 @@ brew install curl
 #brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install git
-brew install vim
+#brew install git already build-in
+#brew install openssh
 brew install grep
-brew install openssh
-brew install screen
 brew install tmux
 #brew install php
 #brew install gmp
@@ -107,10 +105,12 @@ brew install shottr
 brew install todoist
 brew install the-unarchiver
 brew install spotify
+brew install karabiner-elements
 #extra(maybe not install )
 brew install eudic
 brew install iina
 brew install onedrive
 brew install telegram
 # Remove outdated versions from the cellar.
+brew install alacritty
 brew cleanup
