@@ -93,22 +93,23 @@ brew install --cask font-hack-nerd-font
 #brew install zopfli
 
 #my gui
-brew install surge
-brew install alacritty
-brew install karabiner-elements
 brew install appcleaner
+brew install surge
+brew install alfred
+brew install karabiner-elements
+brew install shottr
+brew install alacritty
+brew install the-unarchiver
+brew install flux
+
 brew install 1password
 brew install intellij-idea-ce
-brew install alfred
-brew install flux
 brew install google-chrome
 brew install onyx
-brew install shottr
-brew install the-unarchiver
 brew install spotify
+
 #extra(maybe not install )
 brew install eudic
 
 # Remove outdated versions from the cellar.
-brew install alacritty
 brew cleanup
