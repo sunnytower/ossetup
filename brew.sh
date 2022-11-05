@@ -93,17 +93,15 @@ brew install --cask font-hack-nerd-font
 #brew install zopfli
 
 #my gui
-brew install appcleaner
 brew install surge
+brew install appcleaner
 brew install alfred
 brew install karabiner-elements
 brew install shottr
 brew install alacritty
 brew install the-unarchiver
 brew install flux
-
 brew install 1password
-brew install intellij-idea-ce
 brew install google-chrome
 brew install onyx
 brew install spotify
